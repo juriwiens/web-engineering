@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>AIS Vessel Tracker</title>
+<link rel="stylesheet" type="text/css" href="vt_style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img title="AIS Vessel Tracker" src="images/logo.png">
+      <div class="header-main">
+        <h1>AIS Vessel Tracker</h1>
+      </div>
+    </header>
+
+    <div class="body">
+      <nav class="nav">
+        <ul>
+          <li><a href="welcome.html">Welcome</a></li>
+          <li><a href="tracker.html">Tracker</a></li>
+          <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+      </nav>
+
+      <main class="content">
+        <h2>Welcome to the AIS vessel tracker homepage</h2>
+        <p>The AIS vessel tracker homepage suppplies you with near real time vessel position information</p>
+
+        <canvas id="map" height="800" width="766"></canvas>
+        </main>
+      </div><!-- .body end -->
+
+    <footer class="footer">2011 AIS Vessel Tracker</footer>
+  </div><!-- .container end -->
+
+  <script src="js/aisData.js"></script>
+  <script src="js/ais.js"></script>
+  <script src="js/test.js"></script>
+</body>
+</html>
