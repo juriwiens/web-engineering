@@ -1,0 +1,64 @@
+body {
+	/* Page Background Color? */
+	/*background-color: #D8F4E1;*/
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	border: solid 1px;
+	margin: 10px 10%;
+}
+
+.container > * {
+	flex: 1 100%;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	background-color: #33778E;
+}
+
+.header-main {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.body {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+
+.nav {
+	flex: 0 0 256px;
+	background-color: #D8F4E1;
+}
+
+.nav > ul {
+	padding: 0;
+	margin: 30px;
+	list-style: none;
+}
+
+.nav > ul > li > a {
+	text-decoration: none;
+}
+
+.content {
+	padding: 10px;
+}
+
+.footer {
+	padding: 10px 0;
+	text-align: center;
+	font-size: 10px;
+	background-color: #33778E;
+}
+
+#map {
+    background-image: url("images/map.png");
+}
