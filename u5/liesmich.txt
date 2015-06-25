@@ -1,0 +1,17 @@
+Übung 6 Web Engineering, Leif Oppermann, 31.05.2012, 13.06.2013, 07.06.2014, 11.06.2015
+
+Thema: XMLRPC mit der App Engine und Web2py
+
+Sie werden einen kleinen Webservice in der Google Cloud installieren und automatisch von meinem Webservice testen lassen. 
+
+Bei Erfolg erhalten Sie (und ich) eine Email zur Bestätigung.
+
+Am Ende haben Sie einen funktionierenden App Engine Account, den Sie leicht weiterverwenden können. 
+
+Und keine Angst, die Übung ist leicht! 
+
+Öffnen Sie nun bitte die Datei rpc.py, die sowohl die Aufgabenstellung, als auch den benötigten Code enthält.
+
+Abgabe bitte, wenn möglich, bis 25.06.2015, oder spätestens zur Präsentation am 02.07.2015
+
+

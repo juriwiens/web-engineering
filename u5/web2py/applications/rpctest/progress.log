@@ -1,0 +1,4 @@
+[2015-06-25 09:44:05] START
+[2015-06-25 09:45:23] CREATE rpctest.py: 0
+[2015-06-25 09:47:20] DELETE rpctest/controllers/rpctest.py: -1
+[2015-06-25 09:47:28] CREATE rpc.py: 0
