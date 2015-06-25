@@ -1,0 +1,29 @@
+1. Welche und wie viele Anfragen werden bei einem normalen Seitenaufruf an den Server gestellt?
+Zwei Anfragen: eine für die HTML-Seite und eine für das Bild.
+
+2. Füllen Sie das erste Suchformular aus und senden Sie es ab.
+
+	1. Wie groß ist die Content-Length der Server Antwort ?
+	Content-Length:"1735"
+	
+	2. Welcher http Protokoll Typ wird verwendet ?
+	HTTP/1.1
+	
+	3. Welches Parameter / Value Paar wurde an den Server gesendet ?
+	search_name=blub
+	
+	4. Wie erfolgt die Übertragung der Parameter an den Server ?
+	Im Body/Payload des Requests mit Content-Type:application/x-www-form-urlencoded
+
+3. Füllen Sie das zweite Suchformular aus und senden Sie es ab.
+	1. Wie groß ist die Content-Length der Server Antwort ?
+	Content-Length:"1735"
+	
+	2. Welcher http Protokoll Typ wird verwendet ?
+	HTTP/1.1
+	
+	3. Welches Parameter / Value Paar wurde an den Server gesendet ?
+	latitude=1234&longitude=5678
+	
+	4. Wie erfolgt die Übertragung der der Parameter an den Server ?
+	Im Query Teil der URL (nach dem "?"): http://localhost:8080/Uebung2/VesselTrackerOne.html?latitude=1234&longitude=5678
