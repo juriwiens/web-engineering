@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AIS Vessel Tracker</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Welcome to the AIS Vessel Tracker homepage</h1>
+
+		<p>The AIS vessel tracker homepage supplies you with near real time vessel position information.</p>
+
+		<h2>Search for a vessel</h2>
+
+		<p>Use this form to search a vessel by name as http "POST"</p>
+
+		<form method="POST" action="http://localhost:8080/Uebung2/VesselTrackerOne.html">
+			<input type="text" name="search_name"><input type="submit" value="Search">
+		</form>
+
+		<p>Use this form to search a vessel by Latitude and Longitude as http "GET"</p>
+
+		<form method="GET" action="http://localhost:8080/Uebung2/VesselTrackerOne.html">
+			<label for="latitude">Latitude (Breitengrad)</label>
+			<input type="text" id="latitude" name="latitude"><br>
+			<label for="longitude">Longitude (Längengrad)</label>
+			<input type="text" id="longitude" name="longitude"><br>
+			<input type="submit" value="Search">
+		</form>
+
+		<h2>List of vessels in scene:</h2>
+
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Picture</th>
+					<th colspan="2">Vessel Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th><img src="images/logo.png" alt="Vessel picture"></th>
+					<td colspan="2">Penelope</td>
+				</tr>
+				<tr>
+					<th rowspan="2">Position</th>
+					<td>Latitude</td>
+					<td>50° 44' N</td>
+				</tr>
+				<tr>
+					<td>Longitude</td>
+					<td>7° 6' E</td>
+				</tr>
+				<tr>
+					<th>Speed</th>
+					<td colspan="2">10 kn</td>
+				</tr>
+				<tr>
+					<th>Direction</th>
+					<td colspan="2">Rotterdam</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<p>Real AIS Vessel Tracker System: <a href="http://www.vesselfinder.com">http://www.vesselfinder.com</a>
+	</body>
+</html>
